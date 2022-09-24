@@ -125,19 +125,17 @@ img {
 }
 
 /************************************************
-    SOLUZIONE RESPONSIVE
- ************************************************/
+    SOLUZIONE RESPONSIVE tablet version
+ ************************************************/ 
  @media (max-width:768px) {
-     header h1 {
-         max-width: 768;
+     .container {
+         max-width: 100%;
      }
  }
- 
-@media (max-width:768px) {
+
+ @media (max-width:480px) {
     .container {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
-}
+ }
